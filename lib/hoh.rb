@@ -30,7 +30,8 @@
 #   sub_category: nil
 # }
 
-def naming_system { label: "Kingdom", sub_category: {label: "Phylum", sub_category: {label: "Class"}
+def naming_system {
+  hoh = { label: "Kingdom", sub_category: {label: "Phylum", sub_category: {label: "Class"}
  }
 }
   # Remember:
